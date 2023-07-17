@@ -9,11 +9,6 @@
 #include <unordered_map>
 #include <gpiod.hpp>
 
-namespace gpiod {
-    class chip;
-    class line;
-}
-
 class Gpio : public QObject
 {
     Q_OBJECT
@@ -33,4 +28,3 @@ private:
 };
 
 #endif // GPIO_H
-
